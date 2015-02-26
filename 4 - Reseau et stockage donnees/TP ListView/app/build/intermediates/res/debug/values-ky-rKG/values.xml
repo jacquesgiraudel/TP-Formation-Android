@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values-ky-rKG/values.xml -->
+=======
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values-ky-rKG/values.xml -->
+>>>>>>> 077fd003d0ab288e84ba6609847072423d879c12
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Үйгө багыттоо"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>

@@ -17,4 +17,8 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:drawable="@drawable/abc_btn_switch_to_on_mtrl_00012" />
     <item android:drawable="@drawable/abc_btn_switch_to_on_mtrl_00001" />
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable/abc_switch_thumb_material.xml -->
+=======
+</selector><!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable/abc_switch_thumb_material.xml -->
+>>>>>>> 077fd003d0ab288e84ba6609847072423d879c12

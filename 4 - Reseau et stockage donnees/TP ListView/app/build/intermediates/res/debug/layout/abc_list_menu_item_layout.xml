@@ -58,4 +58,8 @@
     <!-- Checkbox, and/or radio button will be inserted here. -->
 
 </android.support.v7.internal.view.menu.ListMenuItemView>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_layout.xml -->
+=======
+<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_layout.xml -->
+>>>>>>> 077fd003d0ab288e84ba6609847072423d879c12

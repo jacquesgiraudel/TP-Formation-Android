@@ -83,4 +83,8 @@
               android:layout_above="@android:id/text2" />
 
 </RelativeLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_search_dropdown_item_icons_2line.xml -->
+=======
+<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_search_dropdown_item_icons_2line.xml -->
+>>>>>>> 077fd003d0ab288e84ba6609847072423d879c12

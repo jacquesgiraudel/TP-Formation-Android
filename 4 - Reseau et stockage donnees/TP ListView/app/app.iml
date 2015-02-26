@@ -81,6 +81,10 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+<<<<<<< HEAD
+=======
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+>>>>>>> 077fd003d0ab288e84ba6609847072423d879c12
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
