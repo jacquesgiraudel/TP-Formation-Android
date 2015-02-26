@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jgl.tptwitter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.jgl.tptwitter.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jgl.tptwitter.TwitterLoginActivity"
+            android:label="@string/title_activity_twitter_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jgl.tptwitter.TweetActivity"
+            android:label="@string/title_activity_tweet" >
+        </activity>
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false" />
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:icon="@drawable/tw__transparent"
+            android:label="@string/kit_name" />
+        <activity
+            android:name="com.digits.sdk.android.PhoneNumberActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity="com.digits.sdk.android"
+            android:theme="@style/dgts__LightTheme"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.digits.sdk.android.ConfirmationCodeActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity="com.digits.sdk.android"
+            android:theme="@style/dgts__LightTheme"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.digits.sdk.android.LoginCodeActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity="com.digits.sdk.android"
+            android:theme="@style/dgts__LightTheme"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.digits.sdk.android.TwitterLoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity="com.digits.sdk.android"
+            android:theme="@style/dgts__LightTheme" />
+        <activity
+            android:name="com.digits.sdk.android.ContactsActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@style/dgts__LightTheme" />
+
+        <service
+            android:name="com.digits.sdk.android.ContactsUploadService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

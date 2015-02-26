@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/1%20-%20TP%20Facebook/facebook/build/intermediates/bundles/debug/res/values-ldpi-v4/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+</resources>

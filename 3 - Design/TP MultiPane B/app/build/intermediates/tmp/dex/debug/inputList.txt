@@ -1,0 +1,5 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\3 - Design\TP MultiPane B\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\3 - Design\TP MultiPane B\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-fa883d6290039362849f114a5bf013892e2506b3.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\3 - Design\TP MultiPane B\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-70b645996f387833734f5c1c0c9cff9b6513c523.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\3 - Design\TP MultiPane B\app\build\intermediates\pre-dexed\debug\classes-e80e2d4eea252471c47847d826b648a64907747d.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\3 - Design\TP MultiPane B\app\build\intermediates\pre-dexed\debug\classes-a029fc43a3cfc675317eb26d430764bdda68f18a.jar

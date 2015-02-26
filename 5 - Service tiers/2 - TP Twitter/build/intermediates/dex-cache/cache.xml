@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-f778045be5059ddf247dc8a1bee788f86eb503bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a742dedf00a8bae2bf46f2179db8724b258d9db5">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-84bdccfd20f74efff9cc2e7b263627733a0576f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.6.1\efb0a36546aa8857ab8df358b106c1817e03cbee\retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\retrofit-1.6.1-8ff561ca573c02306d4dc39107e13a9762b59537.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16937febed88cb0a2bf0582cc532eb037baa18a4">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-c2e3c1479617b8124818fca9fd18a7972aaceb09.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-da37796061ee8b38ee9d74d927cd7eb6d7e6a0ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-6a22b4a8e74dad33b9e9426d614fc438f7a0bf00.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\gson-2.2.4-3dda022564e9230259721461bcf3b12187caa68f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-b62e808d2be86d08f43783bec1fa8629d1d379c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="526badebbc8f95776d09710372f706260b452b17">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-1ed7eaa0c5591d17d40a2ae5a70016128d3168ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.7.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3063c02d449f6c79f1d67e8014ecace27ef90673">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-efc688e4cf2af4dd07295faa71f01710c5172db7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-ui\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ccd5938058fe026f4be9a2eca6d07bd83f6a6cf">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-42c325faabde532f69415cbe79360a7296a170c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20a6dfbe395a3557a58a3d9f4460c15b0ce04d1e">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-83b77c2fc0eb7bec569a4c4b0d8426f5a6747c8d.jar" />
+    </item>
+
+</items>

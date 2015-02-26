@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jgl.autocatalogueur" >
+		...
+		<!-- déclaration du content provider -->
+        <provider
+            android:name="com.jgl.autocatalogueur.MyContentProvider"
+            android:authorities="com.jgl.autocatalogueur"
+            android:enabled="true"
+            android:exported="false" >
+        </...
+    </application>
+
+</manifest>

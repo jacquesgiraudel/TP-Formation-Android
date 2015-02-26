@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-ff909353babb5ee0860ce6dbd2eab25f38607d7f.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d41793f9cc4d3d5432646dfbf931ced1d623d45c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f265524e1c414567131fdcbb05d7dd3241e61bab">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-eb4cf1b38a5094086691eda2aa0b9bfd503887db.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-e80386cddb3699a73bcdb83c840f78aa99e862f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-68b029bbe06d6fe716be6b0fdfbe5fe3f6088089.jar" />
+    </item>
+
+</items>

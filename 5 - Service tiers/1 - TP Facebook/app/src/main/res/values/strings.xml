@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TPFacebook</string>
+    <string name="app_id">324807677719860</string>
+    <string name="ok">OK</string>
+    <string name="success">Succès</string>
+    <string name="successfully_posted_post">Posté : \'%1$s\'.</string>
+    <string name="error">Erreur</string>
+    <string name="err_notConnected">Non connecté</string>
+
+</resources>

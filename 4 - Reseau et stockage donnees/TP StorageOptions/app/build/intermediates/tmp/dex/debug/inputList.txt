@@ -1,0 +1,5 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP StorageOptions\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP StorageOptions\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-fa883d6290039362849f114a5bf013892e2506b3.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP StorageOptions\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-deac34593e211ae50dc5681d13a2c9c2741ac8ee.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP StorageOptions\app\build\intermediates\pre-dexed\debug\classes-f88d9fd08ab9f3d9b38a2d124a03d5270b2821c8.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP StorageOptions\app\build\intermediates\pre-dexed\debug\classes-1de7e13183ce66d0703e87e165567d7ac4342968.jar

@@ -1,0 +1,6 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-fa883d6290039362849f114a5bf013892e2506b3.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\pre-dexed\debug\gson-2.2.4-af88f497d575898e192abf3e1f983d36883f702a.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-7504e3dc795b36e597abde8121a249befbef7903.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\pre-dexed\debug\classes-512f336d37a23f79c6caf0df9df2ecbe2750f523.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ListView\app\build\intermediates\pre-dexed\debug\classes-c3a69165b80526506050339b3423330cee9c39ba.jar

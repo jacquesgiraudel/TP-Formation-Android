@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jgl.tpmultipane.MultiPaneHostActivity"
+    android:id="@+id/DC_ll_root">
+
+    <fragment android:name="com.jgl.tpmultipane.ListContactsFragment" android:id="@+id/LC_fragment_listContacts"
+        android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent" />
+
+    <fragment android:name="com.jgl.tpmultipane.DetailContactFragment" android:id="@+id/LC_fragment_detailContact"
+        android:layout_weight="2" android:layout_width="0dp" android:layout_height="match_parent" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/3%20-%20Design/TP%20MultiPane%20B/app/src/main/res/layout-large/activity_multi_pane_host.xml -->

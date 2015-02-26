@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/2%20-%20Architecture%20technique/TP%20Autocatalogage/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/2%20-%20Architecture%20technique/TP%20Autocatalogage/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Autocatalogueur</string>
+    <string name="tag_landscape">Landscape : </string>
+    <string name="tag_portrait">Portrait : </string>
+    <string name="title">List image by tag</string>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/2%20-%20Architecture%20technique/TP%20Autocatalogage/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

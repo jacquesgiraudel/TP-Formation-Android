@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.jgl.tpmultipane.DetailContactFragment">
+
+    <ImageView
+        android:id="@+id/DC_imageView_photo"
+        style="@style/DetailImage"
+         />
+
+    <TextView
+        android:id="@+id/DC_textView_name"
+        android:layout_below="@+id/DC_imageView_photo"
+        style="@style/DetailText"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@android:id/text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dgts__padding_title"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    /><!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy/sdk/kits/digits/src/main/res/layout/dgts__country_row.xml --><!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/2%20-%20TP%20Twitter/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.0.0/res/layout/dgts__country_row.xml -->
