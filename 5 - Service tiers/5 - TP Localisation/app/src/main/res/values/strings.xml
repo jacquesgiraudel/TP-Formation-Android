@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TP-Localisation</string>
+    <string name="i_am_in">Je me trouve à %1$s</string>
+
+</resources>

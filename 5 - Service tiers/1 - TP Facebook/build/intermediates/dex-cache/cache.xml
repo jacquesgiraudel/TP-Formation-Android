@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\internal_impl-21.0.3-631cad0af22e0b5a5b30025c9d7859107726d8e8.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\bolts-android-1.1.4-1703cb39ca3b13ca52327dd0ceae8b3cf82cb648.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\classes-812e3fc9b8b6fbf20b59f6b9e307f2851f9dede6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\classes-10c62377ee9d6847205a14099d245e45e1b1b1be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\exploded-aar\com.facebook.android\facebook\3.22.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="76ba16f92a50f3d3d37d260344ff290e0fb6531e">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\1 - TP Facebook\app\build\intermediates\pre-dexed\demo\debug\classes-b8eb35c43295b0c6ab0b0c46c33e8bc67c466d0e.jar" />
+    </item>
+
+</items>

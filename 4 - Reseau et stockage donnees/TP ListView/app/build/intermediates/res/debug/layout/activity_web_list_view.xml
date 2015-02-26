@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jgl.tplistview.WebListViewActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal" />
+    
+</LinearLayout>
+<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/4%20-%20Reseau%20et%20stockage%20donnees/TP%20ListView/app/src/main/res/layout/activity_web_list_view.xml -->

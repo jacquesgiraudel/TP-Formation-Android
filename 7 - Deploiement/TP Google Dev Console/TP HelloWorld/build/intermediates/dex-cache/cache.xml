@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\pre-dexed\phone\debug\classes-08283d9041aae113acdab9e43de95d679f63dae2.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\pre-dexed\phone\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\pre-dexed\phone\debug\internal_impl-21.0.3-c28529b316a9a55e5f399639ccb1169fd131c605.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\7 - Deploiement\TP Google Dev Console\TP HelloWorld\app\build\intermediates\pre-dexed\phone\debug\classes-7ed0b93b72efd003e42905474b1e919b70fcfa21.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-84bdccfd20f74efff9cc2e7b263627733a0576f0.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-efc688e4cf2af4dd07295faa71f01710c5172db7.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-42c325faabde532f69415cbe79360a7296a170c0.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\retrofit-1.6.1-8ff561ca573c02306d4dc39107e13a9762b59537.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-b62e808d2be86d08f43783bec1fa8629d1d379c8.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-1ed7eaa0c5591d17d40a2ae5a70016128d3168ce.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-c2e3c1479617b8124818fca9fd18a7972aaceb09.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\gson-2.2.4-3dda022564e9230259721461bcf3b12187caa68f.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-da37796061ee8b38ee9d74d927cd7eb6d7e6a0ca.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-83b77c2fc0eb7bec569a4c4b0d8426f5a6747c8d.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-6a22b4a8e74dad33b9e9426d614fc438f7a0bf00.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\2 - TP Twitter\app\build\intermediates\pre-dexed\debug\classes-f778045be5059ddf247dc8a1bee788f86eb503bb.jar

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autocatalogueur</string>
+    <string name="title">List image by tag</string>
+    <string name="tag_portrait">Portrait : </string>
+    <string name="tag_landscape">Landscape : </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

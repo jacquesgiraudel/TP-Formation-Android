@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs' // Ajout du répertoire où est la bibliothèque native générée
+        jni.srcDirs = []
+        // Désactive l'appel gradle à ndk-build, le build automatique par gradle est défaillant ex.: ne fonctionne pas avec un seul fichier à compiler
+    }
+
+    defaultConfig {
+        applicationId "com.jgl.jni"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}

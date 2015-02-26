@@ -1,0 +1,7 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-eb4cf1b38a5094086691eda2aa0b9bfd503887db.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d41793f9cc4d3d5432646dfbf931ced1d623d45c.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-68b029bbe06d6fe716be6b0fdfbe5fe3f6088089.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-ff909353babb5ee0860ce6dbd2eab25f38607d7f.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\5 - Service tiers\3 - TP GooglePlus\app\build\intermediates\pre-dexed\debug\classes-e80386cddb3699a73bcdb83c840f78aa99e862f5.jar

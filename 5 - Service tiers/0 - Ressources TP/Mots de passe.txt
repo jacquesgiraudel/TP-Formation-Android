@@ -1,0 +1,3 @@
+mdp keystore : Formation
+TP Facebook : facebook/facebook
+TP Google+ : google+/google+

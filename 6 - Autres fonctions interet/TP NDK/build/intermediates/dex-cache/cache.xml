@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\classes-a96f490feffa4290379a2cf0348d34acd33227fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\classes-bb0600b5482f31c1a3cb502ba38a088d86af9aa6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-abe8bd4e7b93fd9d1bccbbef51bf8db01a551d88.jar" />
+    </item>
+
+</items>

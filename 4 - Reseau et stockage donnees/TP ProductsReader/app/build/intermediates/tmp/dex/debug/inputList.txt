@@ -1,0 +1,5 @@
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ProductsReader\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ProductsReader\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-fa883d6290039362849f114a5bf013892e2506b3.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ProductsReader\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-8f9f280c73ca89976711e145dc1591c6cbec5d5d.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ProductsReader\app\build\intermediates\pre-dexed\debug\classes-489b455234c635260cedf3840e0a7126b322e38e.jar
+C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\4 - Reseau et stockage donnees\TP ProductsReader\app\build\intermediates\pre-dexed\debug\classes-97ae89700623dc81958d3bbae4d51766157afc48.jar

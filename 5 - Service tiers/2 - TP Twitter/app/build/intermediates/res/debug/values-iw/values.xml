@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/2%20-%20TP%20Twitter/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.0/res/values-iw/values.xml -->
+    <eat-comment/>
+    <plurals name="tw__time_hours">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/2%20-%20TP%20Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-iw/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/2%20-%20TP%20Twitter/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.0.0/res/values-iw/values.xml -->
+    <eat-comment/>
+    <string name="dgts__cancel">ביטול</string>
+    <string name="dgts__communication_error">שגיאת תקשורת</string>
+    <string name="dgts__confirmation_code">קוד אישור</string>
+    <string name="dgts__confirmation_edit_hint">הזן קוד אישור</string>
+    <string name="dgts__confirmation_error">לא ניתן לאשר את מספר הטלפון שלך</string>
+    <string name="dgts__confirmation_error_alternative">מצטערים, נתקלנו בבעיה בשליחת קוד האישור אליך. נסה להיכנס למערכת להלן.</string>
+    <string name="dgts__confirmation_expired">תוקף הקוד פג. שלח מחדש קוד אישור.</string>
+    <string name="dgts__confirmation_send_text">שלח קוד אישור</string>
+    <string name="dgts__confirmation_sending_text">שולח קוד אישור</string>
+    <string name="dgts__confirmation_sent_text">קוד אישור נשלח</string>
+    <string name="dgts__confirmation_sms">קוד אישור: %1$s. הזן קוד זה ב%2$s</string>
+    <string name="dgts__create_account_text">צור חשבון</string>
+    <string name="dgts__creating_account_text">יוצר חשבון</string>
+    <string name="dgts__dismiss">התעלם</string>
+    <string name="dgts__find_your_friends">חפש את החברים שלך</string>
+    <string name="dgts__login_digits_text">השתמש במספר הטלפון שלי</string>
+    <string name="dgts__network_error">בדוק את הרשת שלך ונסה שוב.</string>
+    <string name="dgts__not_now">לא עכשיו</string>
+    <string name="dgts__okay">אישור</string>
+    <string name="dgts__phone_number_edit_hint">המספר שלך</string>
+    <string name="dgts__phone_number_text">הזן את מספר הטלפון שלך</string>
+    <string name="dgts__resend">שלח מחדש</string>
+    <string name="dgts__resend_confirmation_text">שלח מחדש קוד אישור</string>
+    <string name="dgts__sign_in">כניסה</string>
+    <string name="dgts__sign_in_error">לא הצלחנו להכניס אותך לטוויטר בשלב זה. נסה שוב מאוחר יותר.</string>
+    <string name="dgts__sign_in_twitter">היכנס לטוויטר</string>
+    <string name="dgts__signing_in">נכנס</string>
+    <string name="dgts__try_again">נסה שוב</string>
+    <string name="dgts__try_again_confirmation">בדוק את הקוד שלך ונסה שוב.</string>
+    <string name="dgts__try_again_phone_number">בדוק את המספר שלך ונסה שוב.</string>
+    <string name="dgts__try_another_phone">נסה מספר טלפון אחר</string>
+    <string name="dgts__upload_contacts">אנחנו משתמשים ב-Digits by Twitter לאיתור עוד חברים שלך המשתמשים ביישום זה. בעת ההקשה על \'אישור\', אנחנו מעלים את פנקס הכתובות שלך ל-Digits by Twitter ומאפשרים למשתמשים אחרים של היישום לגלות אותך.</string>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/5%20-%20Service%20tiers/2%20-%20TP%20Twitter/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.0/res/values-iw/values.xml -->
+    <eat-comment/>
+    <string name="tw__relative_date_format_long">d.M.y</string>
+    <string name="tw__relative_date_format_short">d. MMM</string>
+</resources>

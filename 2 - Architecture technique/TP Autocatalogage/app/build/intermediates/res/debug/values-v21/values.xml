@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/2%20-%20Architecture%20technique/TP%20Autocatalogage/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+    </style>
+</resources>
