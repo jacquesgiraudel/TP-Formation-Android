@@ -1,0 +1,5 @@
+C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\3 - Design\TP MultiPane sans loader\app\build\intermediates\classes\debug
+C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\3 - Design\TP MultiPane sans loader\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-fa883d6290039362849f114a5bf013892e2506b3.jar
+C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\3 - Design\TP MultiPane sans loader\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-a3ed5cf394f70b36ef314abb0eb064df4fa3bfc8.jar
+C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\3 - Design\TP MultiPane sans loader\app\build\intermediates\pre-dexed\debug\classes-1d276743b313b914f02bd7f75c2a963ffbe3873c.jar
+C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\3 - Design\TP MultiPane sans loader\app\build\intermediates\pre-dexed\debug\classes-179e0a7d0fc0034fdee286fb516008a08a940f3a.jar

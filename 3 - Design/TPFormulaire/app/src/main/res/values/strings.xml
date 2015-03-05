@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TP Formulaire</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Utilisateur...</string>
+    <string name="password">Mot de passe...</string>
+    <string name="gender">Sexe</string>
+    <string name="male">H</string>
+    <string name="female">F</string>
+    <string name="web">Web</string>
+    <string name="friends">Amis</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".FormActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="@string/login"
+        android:id="@+id/login"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageView"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageView"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/material_blue_grey_800" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:layout_below="@id/imageView" />
+
+    <RadioGroup
+        android:id="@+id/genderRadios"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_toRightOf="@id/gender" android:layout_below="@id/imageView"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/male" android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/female" android:onClick="onRadioButtonClicked"
+            android:layout_marginLeft="20dp"/>
+
+    </RadioGroup>
+
+    <CheckBox android:id="@+id/checkbox_web"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/web" android:onClick="onCheckboxClicked" android:layout_below="@id/genderRadios"/>
+
+    <CheckBox android:id="@+id/checkbox_friends"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/friends" android:onClick="onCheckboxClicked" android:layout_below="@id/genderRadios" android:layout_toRightOf="@id/checkbox_web"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@id/checkbox_web"
+        android:text="@string/ok"
+      />
+
+
+</RelativeLayout>
