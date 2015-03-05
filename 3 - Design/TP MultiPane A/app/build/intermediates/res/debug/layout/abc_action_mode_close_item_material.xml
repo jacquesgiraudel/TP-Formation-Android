@@ -23,4 +23,4 @@
              android:src="?attr/actionModeCloseDrawable"
              style="?attr/actionModeCloseButtonStyle"
              android:layout_width="wrap_content"
-             android:layout_height="match_parent" /><!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/3%20-%20Design/TP%20MultiPane%20A/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_close_item_material.xml -->
+             android:layout_height="match_parent" /><!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/3%20-%20Design/TP%20MultiPane%20A/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_close_item_material.xml -->
