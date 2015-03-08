@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jgl.tptravelapp.DetailIdeaActivity">
+
+
+    <ImageView
+        android:id="@+id/ideaImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/container_ideaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@id/ideaImage"
+        android:gravity="center_vertical"
+        android:background="#60000000">
+
+        <TextView
+            android:id="@+id/ideaTitle"
+            android:text="@string/idea_title_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#90f3f3f3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ideaDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/container_ideaAction"
+        android:layout_below="@id/container_ideaTitle"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/idea_description_default"
+        android:padding="8dp"
+
+        />
+
+    <LinearLayout
+        android:id="@id/container_ideaAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:background="#F3F3F3">
+
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="3dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_heart_outline"
+            android:paddingRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
