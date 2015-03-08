@@ -26,6 +26,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+
 import com.google.gson.Gson;
 
 
@@ -40,23 +41,26 @@ public class WebAdapter extends BaseAdapter {
         this.context = context;
     }
 
-    public void init(){
+    public void init() {
         LoadProductsTask task = new LoadProductsTask();
         task.execute();
     }
 
     @Override
     public int getCount() {
+
         return products.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return null;
+
+        return products.get(i);
     }
 
     @Override
     public long getItemId(int i) {
+
         return Long.valueOf(products.get(i).getProductId());
     }
 
@@ -67,8 +71,7 @@ public class WebAdapter extends BaseAdapter {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService
                     (Context.LAYOUT_INFLATER_SERVICE);
             rowLayout = inflater.inflate(android.R.layout.simple_list_item_1, null);
-        }
-        else if (convertView != null) {
+        } else if (convertView != null) {
             rowLayout = convertView;
         }
 
@@ -76,15 +79,15 @@ public class WebAdapter extends BaseAdapter {
         String productName = products.get(i).getProductName();
         textView.setText(productName);
 
-        if(!allProductsObtained && i == products.size() - 1){
+        if (!allProductsObtained && i == products.size() - 1) {
             loadProducts();
         }
 
         return rowLayout;
     }
 
-    private void loadProducts(){
-        ConnectivityManager connMgr = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+    private void loadProducts() {
+        ConnectivityManager connMgr = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
             LoadProductsTask task = new LoadProductsTask();
@@ -92,7 +95,7 @@ public class WebAdapter extends BaseAdapter {
         }
     }
 
-    class LoadProductsTask extends AsyncTask{
+    class LoadProductsTask extends AsyncTask {
 
         private static final int PAGE_SIZE = 10;
 
@@ -121,18 +124,16 @@ public class WebAdapter extends BaseAdapter {
                     Products newProducts = gson.fromJson(json.toString(), Products.class);
                     if (newProducts.getItems().size() != 0) {
                         products.addAll(newProducts.getItems());
-                        if(newProducts.getItems().size() % PAGE_SIZE != 0){
+                        if (newProducts.getItems().size() % PAGE_SIZE != 0) {
                             allProductsObtained = true;
                         }
-                    }
-                    else {
+                    } else {
                         allProductsObtained = true;
                     }
                 } else {
                     Log.e(TAG, "La requête a retourné l'erreur " + conn.getResponseCode());
                 }
-            }
-            catch (Exception e){
+            } catch (Exception e) {
                 Log.e(TAG, "Erreur lors de la requête", e);
             }
 
@@ -141,6 +142,7 @@ public class WebAdapter extends BaseAdapter {
 
         @Override
         protected void onPostExecute(Object o) {
+
             notifyDataSetChanged();
         }
     }
@@ -149,13 +151,13 @@ public class WebAdapter extends BaseAdapter {
 
         private List<Product> products;
 
-        public	List<Product> getItems() {
+        public List<Product> getItems() {
             return products;
         }
 
     }
 
-    private class Product{
+    private class Product {
         private String productId;
         private String productName;
 
