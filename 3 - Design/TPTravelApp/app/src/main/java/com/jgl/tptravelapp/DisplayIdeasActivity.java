@@ -29,7 +29,7 @@ public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 
         // Création de l'adapter utilisé pour alimenter le spinner
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, new String[]{"Source d'idées de voyage A", "Source d'idées de voyage B", "Source d'idées de voyage C"});
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, new String[]{"Source Locale", "Source Web"});
         SpinnerAdapter adapter = arrayAdapter;
         actionBar.setListNavigationCallbacks(adapter, this);
 

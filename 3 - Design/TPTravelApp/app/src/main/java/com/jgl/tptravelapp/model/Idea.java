@@ -7,6 +7,7 @@ public class Idea {
 
     private String ideaName;
     private int ideaDrawableId;
+    private String ideaDrawableUrl;
     private String ideaDescription;
     private double latitude;
     private double longitude;
@@ -14,6 +15,14 @@ public class Idea {
     public Idea(String ideaName, int ideaDrawableId, String ideaDescription, double latitude, double longitude) {
         this.ideaName = ideaName;
         this.ideaDrawableId = ideaDrawableId;
+        this.ideaDescription = ideaDescription;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+    public Idea(String ideaName, String ideaDrawableUrl, String ideaDescription, double latitude, double longitude) {
+        this.ideaName = ideaName;
+        this.ideaDrawableUrl = ideaDrawableUrl;
         this.ideaDescription = ideaDescription;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -57,5 +66,13 @@ public class Idea {
 
     public void setLongitude(double longitude) {
         this.longitude = longitude;
+    }
+
+    public String getIdeaDrawableUrl() {
+        return ideaDrawableUrl;
+    }
+
+    public void setIdeaDrawableUrl(String ideaDrawableUrl) {
+        this.ideaDrawableUrl = ideaDrawableUrl;
     }
 }
