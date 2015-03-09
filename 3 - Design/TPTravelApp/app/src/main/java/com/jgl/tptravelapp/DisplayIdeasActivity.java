@@ -12,6 +12,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SpinnerAdapter;
 
+import com.jgl.tptravelapp.model.Idea;
+
 
 public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar.OnNavigationListener{
 
@@ -77,6 +79,7 @@ public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar
 
     @Override
     public boolean onNavigationItemSelected(int i, long l) {
+
         return false;
     }
 }

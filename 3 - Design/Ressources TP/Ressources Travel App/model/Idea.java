@@ -1,4 +1,4 @@
-package com.jgl.tptravelapp;
+package com.jgl.tptravelapp.model;
 
 /**
  * Created by Jacques Giraudel on 07/03/2015.
