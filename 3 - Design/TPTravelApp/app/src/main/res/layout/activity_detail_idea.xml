@@ -1,80 +1,103 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<!-- Permet le scroll sur son contenu : n'autorise qu'un fils d'où création d'un LinearLayout fils regroupant toutes les vues de l'écran -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.jgl.tptravelapp.DetailIdeaActivity">
 
-
-    <ImageView
-        android:id="@+id/ideaImage"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="@android:color/darker_gray"
-        android:scaleType="centerCrop"/>
-
     <LinearLayout
-        android:id="@+id/container_ideaTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignBottom="@id/ideaImage"
-        android:gravity="center_vertical"
-        android:background="#60000000">
-
-        <TextView
-            android:id="@+id/ideaTitle"
-            android:text="@string/idea_title_default"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:padding="10dp"
-            android:textColor="#90f3f3f3"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_weight="1"
-            android:gravity="center_vertical"/>
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/ideaDescription"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/container_ideaAction"
-        android:layout_below="@id/container_ideaTitle"
-        android:textColor="#000000"
-        android:background="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/idea_description_default"
-        android:padding="8dp"
 
-        />
+        android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@id/container_ideaAction"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:gravity="right"
-        android:background="#F3F3F3">
+        <!-- Bloc titre de l'idée -->
+        <!-- RelativeLayout pour pouvoir superposer le texte et le fond transparent noir sur l'image -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
 
-        <ImageButton
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:padding="3dp"
-            android:scaleType="fitXY"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_heart_outline"
-            android:paddingRight="10dp"
+            <ImageView
+                android:id="@+id/ideaImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@android:color/darker_gray"
+                android:scaleType="centerCrop" />
+
+            <!-- Conteneur utilisé pour afficher le fond transparent noir -->
+            <!-- Aligné relativement au bas du parent -->
+            <LinearLayout
+                android:id="@+id/container_ideaTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBottom="@id/ideaImage"
+                android:background="#60000000"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ideaTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/idea_title_default"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#90f3f3f3"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Description de l'idée -->
+        <TextView
+            android:id="@+id/ideaDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:text="@string/idea_description_default"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000"
             />
 
+        <!-- Bande contenant le bouton de favori -->
+
+        <LinearLayout
+            android:id="@+id/container_ideaAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#F3F3F3"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bookmarkButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+
+                android:onClick="toggleBookmark"
+
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:paddingRight="10dp"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_heart_outline" />
+
+        </LinearLayout>
+
     </LinearLayout>
-
-
-
-
-</RelativeLayout>
+</ScrollView>
