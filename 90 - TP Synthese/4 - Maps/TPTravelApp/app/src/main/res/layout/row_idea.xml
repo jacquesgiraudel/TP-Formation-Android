@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fichier d'interface correspondant à une ligne de la ListView -->
+<!-- RelativeLayout pour pouvoir superposer l'image, la bande noir transparente et le texte -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_gravity="center">
+
+    <!-- L'image prend tout l'espace du RelativeLayout -->
+    <!-- scaleType: centerCrop redimensionne l'image à la taille de l'ImageView et coupe/centre si dépassement -->
+    <ImageView
+        android:id="@+id/ideaImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop" />
+
+    <!-- Bande noire transparente en superposition de l'ImageView -->
+    <LinearLayout
+        android:id="@+id/container_ideaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#60000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ideaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/idea_title_default"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#90f3f3f3"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/bookmarkImage"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@android:color/transparent"
+            android:padding="3dp"
+            android:paddingRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_heart_outline" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
