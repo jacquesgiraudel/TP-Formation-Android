@@ -126,15 +126,6 @@ public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar
         super.onSaveInstanceState(outState);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        // Rafraîchissement de l'adapter
-        if (mAdapter != null) {
-            mAdapter.notifyDataSetChanged();
-        }
-    }
-
     /**
      * Méthode Standard de génération de l'interface menu (généré par Android Studio)
      */
