@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class MySQLiteOpenHelper extends SQLiteOpenHelper {
+public class MySQLiteOpenHelper extends SQLiteOpenHelper implements BookmarkManager{
     private static MySQLiteOpenHelper dbHelper;
 
     private static final String DATABASE_NAME = "bookmarkDB";
@@ -19,19 +19,8 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
             "CREATE TABLE " + BOOKMARK_TABLE_NAME + " (" +
                     BOOKMARK_COLUMN_IDEA_TITLE + " TEXT);";
 
-    private MySQLiteOpenHelper(Context context) {
+    public MySQLiteOpenHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-    }
-
-    /**
-     * Récupération de l'instance unique du MySQLiteOpenHelper
-     */
-    public static MySQLiteOpenHelper getInstance(Context context){
-        if (dbHelper == null){
-            dbHelper = new MySQLiteOpenHelper(context);
-        }
-
-        return dbHelper;
     }
 
     @Override

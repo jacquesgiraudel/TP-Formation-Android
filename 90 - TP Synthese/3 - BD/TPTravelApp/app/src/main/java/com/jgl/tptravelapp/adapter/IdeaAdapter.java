@@ -12,8 +12,10 @@ import android.widget.TextView;
 
 import com.google.android.gms.internal.id;
 import com.jgl.tptravelapp.R;
+import com.jgl.tptravelapp.model.BookmarkManager;
 import com.jgl.tptravelapp.model.Idea;
 import com.jgl.tptravelapp.model.MySQLiteOpenHelper;
+import com.jgl.tptravelapp.model.SPBookmarkManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -91,12 +93,12 @@ public abstract class IdeaAdapter extends BaseAdapter {
      * Mise à jour de l'état de l'indicateur de favori
      */
     private void initBookmarkState(ImageView bookmarkImage, String name){
-        MySQLiteOpenHelper dbHelper = MySQLiteOpenHelper.getInstance(context);
+        BookmarkManager bookmarkManager = new SPBookmarkManager(context);
 
-        if (dbHelper.isABookmark(name)) {
+        if (bookmarkManager.isABookmark(name)) {
             bookmarkImage.setImageResource(R.drawable.ic_heart);
         }
-        else if (!dbHelper.isABookmark(name)) {
+        else if (!bookmarkManager.isABookmark(name)) {
             bookmarkImage.setImageResource(R.drawable.ic_heart_outline);
         }
     }

@@ -13,7 +13,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jgl.tptravelapp.adapter.IdeaWebAdapter;
+import com.jgl.tptravelapp.model.BookmarkManager;
 import com.jgl.tptravelapp.model.MySQLiteOpenHelper;
+import com.jgl.tptravelapp.model.SPBookmarkManager;
 
 /**
  * Ecran détail d'une idée
@@ -21,7 +23,7 @@ import com.jgl.tptravelapp.model.MySQLiteOpenHelper;
 public class DetailIdeaActivity extends ActionBarActivity {
 
     private ImageButton imageButton;
-    private MySQLiteOpenHelper dbHelper;
+    private BookmarkManager mBookmarkManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class DetailIdeaActivity extends ActionBarActivity {
         setContentView(R.layout.activity_detail_idea);
 
         // Initialisation du helper de base de données
-        dbHelper = MySQLiteOpenHelper.getInstance(this);
+        mBookmarkManager = new SPBookmarkManager(this);
 
         // Récupération des vues à initialiser
         ImageView image = (ImageView) findViewById(R.id.ideaImage);
@@ -65,10 +67,10 @@ public class DetailIdeaActivity extends ActionBarActivity {
      * Initialisation de l'image du bouton image de favori
      */
     private void initBookmarkState(){
-        if (dbHelper.isABookmark(getIntent().getStringExtra("name"))) {
+        if (mBookmarkManager.isABookmark(getIntent().getStringExtra("name"))) {
             imageButton.setImageResource(R.drawable.ic_heart);
         }
-        else if (!dbHelper.isABookmark(getIntent().getStringExtra("name"))) {
+        else if (!mBookmarkManager.isABookmark(getIntent().getStringExtra("name"))) {
             imageButton.setImageResource(R.drawable.ic_heart_outline);
         }
     }
@@ -77,7 +79,7 @@ public class DetailIdeaActivity extends ActionBarActivity {
      * Change l'état du favori (l'ajoute ou le supprime)
      */
     public void toggleBookmark(View view){
-        dbHelper.toggleBookmark(getIntent().getStringExtra("name"));
+        mBookmarkManager.toggleBookmark(getIntent().getStringExtra("name"));
         initBookmarkState();
     }
 
