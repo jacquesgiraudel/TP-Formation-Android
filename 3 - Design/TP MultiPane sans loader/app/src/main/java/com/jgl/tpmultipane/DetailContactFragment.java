@@ -20,25 +20,29 @@ import android.widget.TextView;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * Fragment affichant le détail d'un contact
  */
 public class DetailContactFragment extends Fragment {
 
     public static final String TAG = "DetailContactFragment";
+    // Colonnes à afficher sur le détail
     static final String[] PROJECTION = new String[] {ContactsContract.Contacts._ID, ContactsContract.Contacts.DISPLAY_NAME, ContactsContract.Contacts.PHOTO_URI};
+    // Condition sur la requête
     static final String SELECTION = ContactsContract.Contacts._ID + " = ?";
     private String selectedId;
 
     public DetailContactFragment() {
-        // Required empty public constructor
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        // Génération de l'interface associée au fragment, récupération de la vue racine
         View root = inflater.inflate(R.layout.fragment_detail_contact, container, false);
 
+        // Gestion de la restauration suite sauvegarde
         if (savedInstanceState != null){
             selectedId = savedInstanceState.getString("selectedContact");
         }
@@ -57,6 +61,9 @@ public class DetailContactFragment extends Fragment {
         return root;
     }
 
+    /**
+     * Affichage du contact
+     */
     public void displayContact(View root, String id){
         selectedId = id;
         ((ImageView) root.findViewById(R.id.DC_imageView_photo)).setImageBitmap(null);

@@ -1,5 +1,0 @@
-C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\classes\debug
-C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar
-C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-abe8bd4e7b93fd9d1bccbbef51bf8db01a551d88.jar
-C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\classes-a96f490feffa4290379a2cf0348d34acd33227fe.jar
-C:\Users\Jacques\AndroidStudioProjects\TP Formation Android\6 - Autres fonctions interet\TP NDK\app\build\intermediates\pre-dexed\debug\classes-bb0600b5482f31c1a3cb502ba38a088d86af9aa6.jar

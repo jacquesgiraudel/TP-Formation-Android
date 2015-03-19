@@ -12,6 +12,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 import android.util.Log;
 
+/**
+ * Classe de gestion de la base de données
+ */
 public class MySQLiteHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "MySQLiteHelper";
@@ -24,7 +27,6 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 
     public static final String TABLE_TAGS = "tags";
 
-    // Database creation sql statement
     private static final String TABLE_CREATE_TAGS = "create table "
             + TABLE_TAGS + "( " + MyContentProvider.TagColumns._ID + " long primary key, "
             + MyContentProvider.TagColumns.COLUMN_TITLE + " text not null, "

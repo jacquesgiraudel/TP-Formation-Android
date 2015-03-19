@@ -20,15 +20,20 @@ import android.widget.SimpleCursorAdapter;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * Fragment listant les contacts de l'appareil (ListFragment donne accès à un fragment lié à une ListView -> pas de onCreateView ni de inflate)
  */
 public class ListContactsFragment extends ListFragment{
     public static final String TAG = "ListContactsFragment";
+
+    /**
+     * Callback : permet de découpler l'appel au parent (plutôt que de passer par un getActivity() et un cast)
+     */
     public interface Callbacks{
         public void onItemSelected(String id);
     }
 
     private SimpleCursorAdapter mAdapter;
+    // Colonnes à récupérer sur le ContentProvider Contact
     static final String[] PROJECTION = new String[] {ContactsContract.Contacts._ID, ContactsContract.Contacts.DISPLAY_NAME};
     private Callbacks mCallbacks;
     private Cursor mCursor;
@@ -39,13 +44,20 @@ public class ListContactsFragment extends ListFragment{
 
         String[] fromColumns = {ContactsContract.Contacts.DISPLAY_NAME}; // Map colonnes et vues pour l’adapteur de curseur
         int[] toViews = {android.R.id.text1}; // La TextView dans simple_list_item_1
+        // Requête sur le ContentProvider Contact pour obtenir un curseur sur les données
         mCursor = getActivity().getContentResolver().query(ContactsContract.Contacts.CONTENT_URI,
                 PROJECTION, null, null, null);
+        // Création d'un adapter basé sur cette requête
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 android.R.layout.simple_list_item_1, mCursor, fromColumns, toViews, 0);
+
+        // Assignation de l'adapter à la liste du fragment
         setListAdapter(mAdapter);
     }
 
+    /**
+     * Méthode appelé lors d'un clic sur un élément de la liste
+     */
     @Override
     public void onListItemClick(ListView l, View v, int position, long id){
 

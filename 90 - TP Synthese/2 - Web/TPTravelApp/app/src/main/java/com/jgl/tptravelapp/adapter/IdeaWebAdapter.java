@@ -73,11 +73,15 @@ public class IdeaWebAdapter extends IdeaAdapter {
 
         private static final int PAGE_SIZE = 10;
 
+        /**
+         * Méthode s'exécutant en dehors du thread d'interface
+         */
         @Override
         protected Object doInBackground(Object[] objects) {
             StringBuilder builder = new StringBuilder();
 
             try {
+                // URL du webservice retournant les idées au format JSON
                 URL url = new URL("http://46.105.17.198/TPTravelApp/rest/Ideas?idx=" + ideas.size() + "&page_size=" + PAGE_SIZE);
                 Log.d(TAG, url.toString());
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -93,9 +97,11 @@ public class IdeaWebAdapter extends IdeaAdapter {
                         builder.append(line);
                     }
 
-                    JSONObject json = new JSONObject(builder.toString());
+                    String jsonString = builder.toString();
+                    //Utilisation de la bibliothèque Gson pour convertir la chaîne json récupérée vers 1 objet spécifique
                     Gson gson = new Gson();
-                    Category category = gson.fromJson(json.toString(), Category.class);
+                    Category category = gson.fromJson(builder.toString(), Category.class);
+                    // Ajout de la liste idées ainsi récupérées à la liste associée à l'adapter
                     ideas.addAll(category.getIdeas());
 
                 } else {
@@ -108,13 +114,19 @@ public class IdeaWebAdapter extends IdeaAdapter {
             return null;
         }
 
+        /**
+         * Méthode s'exécutant sur le thread d'interface après doInBackground
+         */
         @Override
         protected void onPostExecute(Object o) {
-
+            // Notification à l'adapter view associé (la ListView) que les données ont changé (pour MAJ de l'affichage)
             notifyDataSetChanged();
         }
     }
 
+    /**
+     * Chargement de l'image si appareil connecté à internet
+     */
     private void loadImage(ImageView imageView, int position) {
         ConnectivityManager connMgr = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
@@ -124,6 +136,9 @@ public class IdeaWebAdapter extends IdeaAdapter {
         }
     }
 
+    /**
+     * Tâche de chargement de l'image depuis l'url passé en paramètre
+     */
     public static class LoadImageTask extends AsyncTask<String, Void, Bitmap> {
 
         private ImageView imageView;

@@ -102,7 +102,7 @@ public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Création du menu à partir de son fichier d'interface
-        getMenuInflater().inflate(R.menu.menu_display_reviews, menu);
+        getMenuInflater().inflate(R.menu.menu_display_ideas, menu);
         return true;
     }
 

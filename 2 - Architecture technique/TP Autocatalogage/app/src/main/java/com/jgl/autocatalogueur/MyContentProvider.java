@@ -19,6 +19,9 @@ import java.io.Reader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * Implémentation de notre ContentProvider
+ */
 public class MyContentProvider extends ContentProvider {
 
     public static final String LOG_TAG = "MyContentProvider";

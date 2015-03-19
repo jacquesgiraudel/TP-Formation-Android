@@ -7,6 +7,11 @@
     tools:context="com.jgl.tpmultipane.MultiPaneHostActivity"
     android:id="@+id/DC_ll_root">
 
+    <!--
+   Description d'interface utilisée en multicadre (tablette) -> deux fragments (liste et détail)
+   Le qualificateur large (répertoire layout-large) permet d'utiliser ce fichier d'interface spécifique pour les appareils de taille >= large (7') comme les tablettes
+   -->
+
     <fragment android:name="com.jgl.tpmultipane.ListContactsFragment" android:id="@+id/LC_fragment_listContacts"
         android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent" />
 

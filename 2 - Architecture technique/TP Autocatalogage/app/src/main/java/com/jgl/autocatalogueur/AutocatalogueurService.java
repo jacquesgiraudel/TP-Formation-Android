@@ -11,6 +11,9 @@ import android.util.Log;
 
 import java.net.URI;
 
+/**
+ * Composant service : détermination de l'orientation de l'image et catalogage
+ */
 public class AutocatalogueurService extends Service {
 
     public static final String TAG = "AutocatalogueurService";
@@ -22,11 +25,13 @@ public class AutocatalogueurService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
+        // Récupération de l'orientation à partir du ContentProvider Media (informations sur les médias de l'appareil : image, musique, etc.)
         Cursor cursor = getContentResolver().query(intent.getData(), new String[]{MediaStore.Images.Media.TITLE, MediaStore.Images.Media.ORIENTATION}, null, null, null);
         if (cursor.moveToFirst()) {
             String title = cursor.getString(0);
             String orientation = cursor.getString(1);
             Log.d(TAG, "orientation " + orientation);
+            // Insertion d'une ligne dans notre ContentProvider contenant le titre de la photo et son orientation
             ContentValues contentValues = new ContentValues();
             contentValues.put(MyContentProvider.TagColumns.COLUMN_TITLE, title);
             contentValues.put(MyContentProvider.TagColumns.COLUMN_TAG, orientation);

@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 import com.jgl.tptravelapp.adapter.IdeaWebAdapter;
 import com.jgl.tptravelapp.model.BookmarkManager;
-import com.jgl.tptravelapp.model.MySQLiteOpenHelper;
 import com.jgl.tptravelapp.model.SPBookmarkManager;
 
 /**
@@ -85,7 +84,7 @@ public class DetailIdeaActivity extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_detail_review, menu);
+        getMenuInflater().inflate(R.menu.menu_detail_idea, menu);
 
         return true;
     }

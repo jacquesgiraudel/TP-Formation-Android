@@ -6,6 +6,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/**
+ * Implémentation de BookmarkManager basée sur une base de données SQLite
+ */
 public class MySQLiteOpenHelper extends SQLiteOpenHelper implements BookmarkManager{
     private static MySQLiteOpenHelper dbHelper;
 
@@ -15,21 +18,25 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper implements BookmarkMana
     private static final String BOOKMARK_TABLE_NAME = "bookmark";
     private static final String BOOKMARK_COLUMN_IDEA_TITLE = "idea_title";
 
+    // Script de création de table
     private static final String BOOKMARK_TABLE_CREATE =
             "CREATE TABLE " + BOOKMARK_TABLE_NAME + " (" +
                     BOOKMARK_COLUMN_IDEA_TITLE + " TEXT);";
 
+    // Création de la base si non déjà créée
     public MySQLiteOpenHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+    // Création de la table si non déjà créée
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(BOOKMARK_TABLE_CREATE);
     }
 
+    // Appelé si version passée en paramètre (newVersion) du constructeur différente de celle du fichier de base de donnée (oldVersion)
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i2) {
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
         //Ajouter ici les opérations SQL à exécuter lors d'un changement de version
     }
 

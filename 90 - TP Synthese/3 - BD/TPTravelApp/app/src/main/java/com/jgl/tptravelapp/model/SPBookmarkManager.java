@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * Created by Jacques Giraudel on 12/03/2015.
+ * Implémentation de BookmarkManager basée sur les SharedPreferences
  */
 public class SPBookmarkManager implements BookmarkManager {
 
@@ -28,7 +28,11 @@ public class SPBookmarkManager implements BookmarkManager {
         else if (!bookmarks.contains(ideaTitle)){
             bookmarks.add(ideaTitle);
         }
-        prefs.edit().putStringSet("bookmarks", bookmarks).apply();
+        // Nécessité de passer par un éditeur pour modifier les données des SharedPreferences
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putStringSet("bookmarks", bookmarks);
+        // Nécessité d'appliquer les modifications pour prise en compte
+        editor.apply();
     }
 
     @Override

@@ -22,4 +22,4 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         style="?attr/actionModeStyle"/>
-<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/6%20-%20Autres%20fonctions%20interet/TP%20NDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml -->
+<!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP-Formation-Android/6%20-%20Autres%20fonctions%20interet/TP%20NDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml -->

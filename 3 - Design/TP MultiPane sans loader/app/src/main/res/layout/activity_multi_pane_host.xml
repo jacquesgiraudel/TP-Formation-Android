@@ -7,6 +7,9 @@
     tools:context="com.jgl.tpmultipane.MultiPaneHostActivity"
     android:id="@+id/DC_ll_root">
 
+    <!--
+    Description d'interface utilisée avec un seul cadre (téléphone) -> un seul fragment
+    -->
     <fragment android:name="com.jgl.tpmultipane.ListContactsFragment" android:id="@+id/DC_listView"
          android:layout_width="match_parent" android:layout_height="match_parent" />
 

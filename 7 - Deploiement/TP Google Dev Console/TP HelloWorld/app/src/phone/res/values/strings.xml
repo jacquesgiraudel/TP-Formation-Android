@@ -1,7 +1,0 @@
-<resources>
-    <string name="title_activity_hello_world">HelloWorldActivity</string>
-
-    <string name="hello_world">Hello Phone!</string>
-    <string name="action_settings">Settings</string>
-
-</resources>

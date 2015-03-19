@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jgl.autocatalogueur" >
 
+    <!-- Permission de lecture sur la mémoire de stockage externe -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -9,20 +10,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <!-- Déclaration des composants de l'activité -->
         <activity
-            android:name="com.jgl.autocatalogueur.ListCategoriesActivity"
+            android:name=".ListCategoriesActivity"
             android:label="@string/title" >
+            <!-- Filtre main : activité lancée au démarrage -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <receiver
-            android:name="com.jgl.autocatalogueur.MyReceiver"
+            android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true" >
+            <!-- Filtre d'intent : branchement sur les opérations de prise de photo -->
             <intent-filter>
                 <action android:name="com.android.camera.NEW_PICTURE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -31,7 +35,7 @@
         </receiver>
 
         <service
-            android:name="com.jgl.autocatalogueur.AutocatalogueurService"
+            android:name=".AutocatalogueurService"
             android:enabled="true"
             android:exported="false" >
         </service>

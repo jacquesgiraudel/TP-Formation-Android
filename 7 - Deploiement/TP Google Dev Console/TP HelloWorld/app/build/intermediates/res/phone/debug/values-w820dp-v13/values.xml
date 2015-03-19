@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/C:/Users/Jacques/AndroidStudioProjects/TP%20Formation%20Android/7%20-%20Deploiement/TP%20Google%20Dev%20Console/TP%20HelloWorld/app/src/phone/res/values-w820dp/dimens.xml -->
-    <eat-comment/>
-    <dimen name="activity_horizontal_margin">64dp</dimen>
-</resources>

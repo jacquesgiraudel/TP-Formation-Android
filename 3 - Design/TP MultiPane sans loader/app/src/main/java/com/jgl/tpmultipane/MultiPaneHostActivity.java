@@ -22,7 +22,9 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
-
+/**
+ * Activité Hôte des fragments
+ */
 public class MultiPaneHostActivity extends ActionBarActivity implements ListContactsFragment.Callbacks {
 
     public static final String TAG = "MultiPaneHostActivity";
@@ -31,17 +33,27 @@ public class MultiPaneHostActivity extends ActionBarActivity implements ListCont
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Association avec le fichier d'interface descripteur des cadres
         setContentView(R.layout.activity_multi_pane_host);
+        // Détermination du mode multicadre basé sur la présence du 2ème fragment
         multiPane = (findViewById(R.id.LC_fragment_detailContact) != null);
     }
 
+    /**
+     * Implémentation du callback du fragment liste (permet de traiter les clics effectués sur un de ses éléments)
+     */
     @Override
     public void onItemSelected(String id) {
 
+        // Multicadre
         if (multiPane) {
+            // MAJ du fragment à partir du nouvel élément
             DetailContactFragment detailFragment = (DetailContactFragment) getFragmentManager().findFragmentById(R.id.LC_fragment_detailContact);
             detailFragment.displayContact(detailFragment.getView(), id);
-        } else if (!multiPane) {
+        }
+        // Configuration standard
+        else if (!multiPane) {
+            // Lancement d'une nouvelle activité détail
             Intent intent = new Intent(this, DetailContactActivity.class);
             intent.putExtra(DetailContactActivity.EXTRA_CONTACT_ID, id);
             startActivity(intent);

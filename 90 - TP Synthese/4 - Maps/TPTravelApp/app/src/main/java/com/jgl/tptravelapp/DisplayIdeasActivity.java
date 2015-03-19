@@ -1,7 +1,6 @@
 package com.jgl.tptravelapp;
 
 import android.content.Intent;
-import android.os.PersistableBundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -19,9 +18,7 @@ import com.jgl.tptravelapp.adapter.IdeaWebAdapter;
 import com.jgl.tptravelapp.model.Idea;
 import com.jgl.tptravelapp.model.MySQLiteOpenHelper;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -142,7 +139,7 @@ public class DisplayIdeasActivity extends ActionBarActivity implements ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Création du menu à partir de son fichier d'interface
-        getMenuInflater().inflate(R.menu.menu_display_reviews, menu);
+        getMenuInflater().inflate(R.menu.menu_display_ideas, menu);
         return true;
     }
 

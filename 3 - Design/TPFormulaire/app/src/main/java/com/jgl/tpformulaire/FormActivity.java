@@ -11,9 +11,11 @@ public class FormActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Pour affichage de la vue avec RelativeLayout
         setContentView(R.layout.activity_form);
+        // Pour affichage de la vue avec LinearLayout
+        // setContentView(R.layout.activity_form_linearlayout);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -1,5 +1,0 @@
-C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\TP-Google-Dev-Console\TP-HelloWorld\app\build\intermediates\classes\phone\release
-C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\TP-Google-Dev-Console\TP-HelloWorld\app\build\intermediates\pre-dexed\phone\release\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar
-C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\TP-Google-Dev-Console\TP-HelloWorld\app\build\intermediates\pre-dexed\phone\release\internal_impl-21.0.3-d341b1876e8ee2445e89037dd643d97a9a9e10ff.jar
-C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\TP-Google-Dev-Console\TP-HelloWorld\app\build\intermediates\pre-dexed\phone\release\classes-f02f5cd72ff7a90c92dca73a023776f5618a5d7a.jar
-C:\Users\Jacques\AndroidStudioProjects\TP-Formation-Android\TP-Google-Dev-Console\TP-HelloWorld\app\build\intermediates\pre-dexed\phone\release\classes-6ec38036aee78482f35e443f99485167fc74bdb6.jar

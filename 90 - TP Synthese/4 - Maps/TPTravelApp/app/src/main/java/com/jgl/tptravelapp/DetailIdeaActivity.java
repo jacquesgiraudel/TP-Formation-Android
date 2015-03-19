@@ -83,7 +83,7 @@ public class DetailIdeaActivity extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_detail_review, menu);
+        getMenuInflater().inflate(R.menu.menu_detail_idea, menu);
 
         return true;
     }
