@@ -1,17 +1,13 @@
-package com.jgl.autocatalogueur;
-
-import android.database.Cursor;
-
-import java.util.Set;
-import java.util.TreeSet;
+package com.jgl.mosaic;
 
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.provider.BaseColumns;
 import android.util.Log;
 
+/**
+ * Classe de gestion de la base de données
+ */
 public class MySQLiteHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "MySQLiteHelper";
@@ -22,13 +18,12 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
     private static MySQLiteHelper dbHelper;
     private Context context;
 
-    public static final String TABLE_TAGS = "tags";
+    public static final String TABLE_WALLPAPER_IMAGES = "wp_image";
 
-    // Database creation sql statement
-    private static final String TABLE_CREATE_TAGS = "create table "
-            + TABLE_TAGS + "( " + MyContentProvider.TagColumns._ID + " long primary key, "
-            + MyContentProvider.TagColumns.COLUMN_TITLE + " text not null, "
-            + MyContentProvider.TagColumns.COLUMN_TAG + " text not null);";
+    private static final String TABLE_CREATE_WALLPAPER_IMAGES = "create table "
+            + TABLE_WALLPAPER_IMAGES + "( " + MyContentProvider.WallpaperImagesColumns._ID + " long primary key, "
+            + MyContentProvider.WallpaperImagesColumns.COLUMN_POSITION + " text not null, "
+            + MyContentProvider.WallpaperImagesColumns.COLUMN_IMAGE_LOCATION + " text not null);";
 
     private MySQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -37,15 +32,15 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase database) {
-        Log.d(TAG, "creation script : " + TABLE_CREATE_TAGS);
-        database.execSQL(TABLE_CREATE_TAGS);
+        Log.d(TAG, "creation script : " + TABLE_CREATE_WALLPAPER_IMAGES);
+        database.execSQL(TABLE_CREATE_WALLPAPER_IMAGES);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         Log.i(TAG, "Upgrading database from version " + oldVersion + " to "
                 + newVersion + ", which will destroy all old data");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_TAGS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_WALLPAPER_IMAGES);
 
         onCreate(db);
     }

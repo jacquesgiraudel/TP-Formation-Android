@@ -1,47 +1,41 @@
-package com.jgl.autocatalogueur;
+package com.jgl.mosaic;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
 import android.content.ContentValues;
-import android.content.SharedPreferences;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.BaseColumns;
 import android.util.Log;
 
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
+/**
+ * Implémentation de notre ContentProvider
+ */
 public class MyContentProvider extends ContentProvider {
 
     public static final String LOG_TAG = "MyContentProvider";
-    public static final String AUTHORITY = "com.jgl.autocatalogueur";
-    public static final String URI_TAGS = "tags";
+    public static final String AUTHORITY = "com.jgl.mosaic";
+    public static final String URI_WP_IMAGES = "wp_images";
 
-    public static final String TABLE_TAG = "tag";
-    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + URI_TAGS);
-    public static final String CONTENT_DIR_TYPE = ContentResolver.CURSOR_DIR_BASE_TYPE + "/" + TABLE_TAG;
-    public static final String CONTENT_ITEM_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + TABLE_TAG;
-    private static final int TAG_LIST = 1;
-    private static final int TAG_ID = 2;
+    public static final String TABLE_WALLPAPER_IMAGES = "wp_images";
+    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + URI_WP_IMAGES);
+    public static final String CONTENT_DIR_TYPE = ContentResolver.CURSOR_DIR_BASE_TYPE + "/" + TABLE_WALLPAPER_IMAGES;
+    public static final String CONTENT_ITEM_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + TABLE_WALLPAPER_IMAGES;
+    private static final int IMAGE_LIST = 1;
+    private static final int IMAGE_ID = 2;
 
     private static final UriMatcher uriMatcher;
     // prepare the UriMatcher
     static {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         uriMatcher.addURI(MyContentProvider.AUTHORITY,
-                URI_TAGS,
-                TAG_LIST);
+                URI_WP_IMAGES,
+                IMAGE_LIST);
         uriMatcher.addURI(MyContentProvider.AUTHORITY,
-                URI_TAGS + "/#",
-                TAG_ID);
+                URI_WP_IMAGES + "/#",
+                IMAGE_ID);
     }
 
     public MyContentProvider() {
@@ -51,7 +45,7 @@ public class MyContentProvider extends ContentProvider {
     @Override
     public int delete(Uri uri, String selection, String[] selectionArgs) {
         SQLiteDatabase readableDatabase = MySQLiteHelper.getDatabase(getContext());
-        int res = readableDatabase.delete(MySQLiteHelper.TABLE_TAGS, selection, selectionArgs);
+        int res = readableDatabase.delete(MySQLiteHelper.TABLE_WALLPAPER_IMAGES, selection, selectionArgs);
 
         return res;
     }
@@ -61,10 +55,10 @@ public class MyContentProvider extends ContentProvider {
         String type = null;
 
         switch (uriMatcher.match(uri)){
-            case TAG_LIST :
+            case IMAGE_LIST:
                 type =  CONTENT_DIR_TYPE;
                 break;
-            case TAG_ID :
+            case IMAGE_ID:
                 type =  CONTENT_ITEM_TYPE;
                 break;
             default:
@@ -77,7 +71,7 @@ public class MyContentProvider extends ContentProvider {
     @Override
     public Uri insert(Uri uri, ContentValues values) {
         SQLiteDatabase readableDatabase = MySQLiteHelper.getDatabase(getContext());
-        long rowId = readableDatabase.insert(MySQLiteHelper.TABLE_TAGS, null, values);
+        long rowId = readableDatabase.insert(MySQLiteHelper.TABLE_WALLPAPER_IMAGES, null, values);
 
         if (rowId != -1){
             Log.d(LOG_TAG, "insertion in " + LOG_TAG + " succeed");
@@ -97,7 +91,7 @@ public class MyContentProvider extends ContentProvider {
                         String[] selectionArgs, String sortOrder) {
 
         SQLiteDatabase database = MySQLiteHelper.getDatabase(getContext());
-        Cursor cursor = database.query(MySQLiteHelper.TABLE_TAGS, projection, selection, selectionArgs, null, null, sortOrder);
+        Cursor cursor = database.query(MySQLiteHelper.TABLE_WALLPAPER_IMAGES, projection, selection, selectionArgs, null, null, sortOrder);
 
         return cursor;
     }
@@ -107,14 +101,16 @@ public class MyContentProvider extends ContentProvider {
                       String[] selectionArgs) {
 
         SQLiteDatabase database = MySQLiteHelper.getDatabase(getContext());
-        int res = database.update(MySQLiteHelper.TABLE_TAGS, values, selection, selectionArgs);
+        int res = database.update(MySQLiteHelper.TABLE_WALLPAPER_IMAGES, values, selection, selectionArgs);
 
         return res;
     }
 
-    public interface TagColumns extends BaseColumns {
-        public static final String COLUMN_TITLE = "title";
-        public static final String COLUMN_TAG = "tag";
+
+
+    public interface WallpaperImagesColumns extends BaseColumns {
+        public static final String COLUMN_POSITION = "position";
+        public static final String COLUMN_IMAGE_LOCATION = "image_location";
     }
 
 }

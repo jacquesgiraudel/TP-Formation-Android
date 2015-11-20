@@ -10,4 +10,6 @@ public class NativeCalls {
     }
 
     public static native String sayHello(String name);
+
+   // public static native String sayHello2(String name);
 }
