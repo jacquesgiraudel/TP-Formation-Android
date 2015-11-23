@@ -1,21 +1,12 @@
 package com.jgl.mosaic;
 
 import android.app.Service;
-import android.app.WallpaperManager;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.media.ThumbnailUtils;
 import android.os.IBinder;
 import android.provider.MediaStore;
-import android.util.Config;
 import android.util.Log;
-
-import java.io.IOException;
 
 /**
  * Composant service : détermination de l'orientation de l'image et catalogage
@@ -39,14 +30,7 @@ public class UpdateWallpaperService extends Service {
 
             addImageToMosaic(thumbnailPath);
 
-            Bitmap mosaic = WallpaperUtils.createMosaic(getApplicationContext());
-
-            try {
-                WallpaperManager.getInstance(this).setBitmap(mosaic);
-            } catch (IOException e) {
-                Log.e(TAG, "Erreur sur affichage du fond d'écran");
-                e.printStackTrace();
-            }
+            WallpaperUtils.displayMosaicWallpaper(getApplicationContext());
         }
 
         cursor.close();

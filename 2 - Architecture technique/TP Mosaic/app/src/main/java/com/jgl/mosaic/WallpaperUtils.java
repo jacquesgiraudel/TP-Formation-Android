@@ -3,6 +3,7 @@
  */
 package com.jgl.mosaic;
 
+import android.app.WallpaperManager;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -10,16 +11,20 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.media.ThumbnailUtils;
-import android.provider.MediaStore;
+import android.util.Log;
+
+import java.io.IOException;
 
 /**
  * Created by Jacques Giraudel on 19/11/2015.
  */
 public class WallpaperUtils {
 
+    private static final String TAG = "WallpaperUtils";
+
     private static final int MOSAIC_IMAGE_SIDE = 400;
 
-    public static Bitmap createMosaic(Context context){
+    public static void displayMosaicWallpaper(Context context) {
         Bitmap mosaic = null;
 
         String imagePathes[] = new String[4];
@@ -48,7 +53,12 @@ public class WallpaperUtils {
         canvas.drawBitmap(image2, 0, MOSAIC_IMAGE_SIDE, paint);
         canvas.drawBitmap(image3, MOSAIC_IMAGE_SIDE, MOSAIC_IMAGE_SIDE, paint);
 
-        return mosaic;
+        try {
+            WallpaperManager.getInstance(context).setBitmap(mosaic);
+        } catch (IOException e) {
+            Log.e(TAG, "Erreur sur affichage du fond d'écran");
+            e.printStackTrace();
+        }
     }
 
     private static Bitmap getThumbnailFromPath(String imagePath){
